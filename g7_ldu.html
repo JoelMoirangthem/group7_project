@@ -46,6 +46,20 @@
             <p>In this section, we calculate an adjusted upper matrix U' by factoring out the diagonal matrix D. U' is used in the LDU decomposition and is an upper triangular matrix with 1s on the diagonal. This normalization helps simplify further decomposition.</p>
         </div>
 
+            <!-- Lower Matrix L -->
+    <button onclick="L_Matrix('LMatrix')">Solve for L Matrix</button>
+    <div id="LMatrix" class="matrix-display">
+        <h2>Lower Matrix L</h2>
+        <p>Here, we calculate the lower triangular matrix L, which represents the inverse transformations applied during Gaussian elimination. Matrix L has ones on the diagonal and is crucial for reconstructing the original matrix A through LDU decomposition.</p>
+    </div>
+    
+    <!-- LDU Decomposition -->
+    <button onclick="LDU('LDUMatrix')">Solve for LDU Matrix</button>
+    <div id="LDUMatrix" class="matrix-display">
+        <h2>LDU Matrix Decomposition</h2>
+        <p>This section performs the complete LDU decomposition of matrix A. By expressing matrix A as the product of L, D, and U matrices, we can understand its structure and solve various mathematical problems efficiently. This decomposition is commonly used in linear algebra applications.</p>
+            </div>
+
        
     </div>
 
