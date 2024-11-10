@@ -117,3 +117,29 @@ p {
 .heading{
     color: rgb(250, 249, 252);
 }
+body {
+    font-family: "Roboto", Arial, sans-serif;
+    background-color: #f7f9fc;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(linear\ algebra\ bg.jpg);
+    object-fit: (cover);
+    background-size: cover;
+}
+
+h1 {
+    color: #333;
+    text-align: center;
+    font-size: 2.5em;
+    font-weight: 700;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    position: relative;
+}
+.matrix-container {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
